@@ -18,5 +18,5 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, [
 
-	'MARTTIPHPBB_SHOWTOPICSTARTER_TOPIC_STARTER'	=> 'Topic Starter',
+	'MARTTIPHPBB_SHOWTOPICSTARTER_TOPIC_STARTER'	=> 'TOPIC STARTER',
 ]);

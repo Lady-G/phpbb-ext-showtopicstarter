@@ -25,6 +25,15 @@ You can install this on the latest release of phpBB 3.2 by following the steps b
 * Download and unpack the repository into `ext/marttiphpbb/showtopicstarter`
 * Enable `Show Topic Starter` in the ACP at `Customise -> Manage extensions`.
 
+## Customisation
+
+You can customise the text description by modifying '/ext/marttiphpbb/showtopicstarter/language/en/common.php'
+Replace 'Topic Starter' in the line 'MARTTIPHPBB_SHOWTOPICSTARTER_TOPIC_STARTER'	=> 'Topic Starter',' with your customised text.
+
+You can customise the appearance by modifying the CSS file '/ext/marttiphpbb/showtopicstarter/styles/prosilver/theme/showtopicstarter.css'
+
+Clear the system cache after the files have been modified. (ACP -> General -> Purge the cache)
+
 ## Uninstall
 
 * Disable `Show Topic Starter` in the ACP at `Customise -> Extension Management -> Extensions`.
